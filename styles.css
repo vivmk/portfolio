@@ -1,0 +1,16 @@
+/* Set the background color of the page */
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+/* Center the text and make it responsive */
+.centered-text {
+    font-size: calc(2rem + 5vw); /* Responsive font size */
+    text-align: center;
+}
