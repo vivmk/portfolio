@@ -10,6 +10,7 @@
     height: 100%;
     overflow: hidden; /* Prevents scrolling */
     display: flex;
+    font-weight: bold;
     justify-content: center;
     align-items: center;
     background-color: white;
