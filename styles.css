@@ -1,40 +1,35 @@
-/* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Full viewport setup */
-  html, body {
-    height: 100%;
-    overflow: hidden; /* Prevents scrolling */
-    display: flex;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: black;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-  /* Responsive text size */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  font-weight: bold;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+div {
+  font-size: 3vw;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
   div {
-    font-size: 3vw; /* Adjusts text size based on viewport width */
-    text-align: center;
+    font-size: 24px;
   }
-  
-  /* Minimum font size for very small screens */
-  @media (max-width: 480px) {
-    div {
-      font-size: 24px;
-    }
+}
+
+@media (min-width: 1200px) {
+  div {
+    font-size: 36px;
   }
-  
-  /* Maximum font size for large screens */
-  @media (min-width: 1200px) {
-    div {
-      font-size: 36px;
-    }
-  }
-  
+}
