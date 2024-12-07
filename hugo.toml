@@ -1,0 +1,79 @@
+baseURL = "https://vivekm.in"
+languageCode = "en-us"
+title = "Vivek Mishra"
+theme = "typo"
+
+[taxonomies]
+tag = "tags"
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
+[params]
+# Meta description
+description = "Personal Blog"
+singleDateFormat = "2 January 2025"
+
+# Appearance settings
+theme = "auto"
+colorPalette = "eink"
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = "Hi!"
+homeIntroContent = """
+Vivek Mishra is a passionate and versatile tech enthusiast with a knack for crafting seamless mobile experiences as a React Native developer. With a strong foundation in JavaScript and frontend development, he combines his love for clean code and minimalist design to create intuitive apps. Beyond coding, Vivek channels his creativity into writing insightful articles and designing eye-catching calligraphy, all while nurturing his love for nature, animals, and art. A fitness-focused, cybersecurity-curious, and design-driven individual, Vivek is on a journey to master his craft while embracing a "less is more" philosophy in all he does.
+"""
+
+# Collection to display on home
+homeCollectionTitle = "Posts"
+homeCollection = "posts"
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = "2 Jan 2006"
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "instagram"
+url = "https://medium.com/@user"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/user/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/user"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = "algol"
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
