@@ -1,0 +1,6 @@
+[submodule "ritzy"]
+	path = ritzy
+	url = https://github.com/ddritzenhoff/ritzy.git
+[submodule "themes/ritzy"]
+	path = themes/ritzy
+	url = https://github.com/ddritzenhoff/ritzy.git

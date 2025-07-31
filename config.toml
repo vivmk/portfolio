@@ -1,0 +1,15 @@
+baseURL = 'https://vivekm.in'
+languageCode = 'en-us'
+title = 'Vivek Mishra - Software Engineer'
+theme = 'ritzy'
+themesDir = "themes/"
+
+[params]
+  author = "Vivek Mishra"
+  description = "Engineer, Designer"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+ 
