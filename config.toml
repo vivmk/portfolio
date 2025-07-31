@@ -6,7 +6,7 @@ themesDir = "themes/"
 
 [params]
   author = "Vivek Mishra"
-  description = "Engineer, Designer"
+  description = "Engineer and Designer based in India, built 10+ web and mobile applications for Fortune 500 companies."
 
 [markup]
   [markup.goldmark]
